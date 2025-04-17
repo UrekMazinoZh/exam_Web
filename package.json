@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "server": "json-server --watch db.json --port 5000",
-    "build": "concurrently \"npm run dev\" \"npm run server\"",
+    "build": "npm run dev",
     "lint": "eslint .",
     "preview": "vite preview"
   },
