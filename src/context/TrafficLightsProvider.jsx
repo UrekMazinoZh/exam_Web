@@ -9,7 +9,7 @@ export const TrafficLightsProvider = ({ children }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:5000/trafficLights");
+      const response = await fetch("https://traffic-light-api.onrender.com/trafficLights");
       const result = await response.json();
       setData(result);
     };
@@ -18,7 +18,7 @@ export const TrafficLightsProvider = ({ children }) => {
 
   const updateData = async (newData) => {
     setData(newData);
-    await fetch("http://localhost:5000/trafficLights", {
+    await fetch("https://traffic-light-api.onrender.com/trafficLights", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newData),

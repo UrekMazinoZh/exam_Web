@@ -12,9 +12,9 @@
     },
     "brightness": 1,
     "blinkCount": 2,
-    "stateHorizontal": "gold",
-    "stateVertical": "green",
-    "pedestrianHorizontal": "go",
-    "pedestrianVertical": "wait"
+    "stateHorizontal": "green",
+    "stateVertical": "red",
+    "pedestrianHorizontal": "wait",
+    "pedestrianVertical": "go"
   }
 }
