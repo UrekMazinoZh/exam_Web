@@ -1,0 +1,20 @@
+{
+  "trafficLights": {
+    "clickCountsHorizontal": {
+      "red": 0,
+      "gold": 0,
+      "green": 2
+    },
+    "clickCountsVertical": {
+      "red": 0,
+      "gold": 0,
+      "green": 0
+    },
+    "brightness": 1,
+    "blinkCount": 2,
+    "stateHorizontal": "green",
+    "stateVertical": "green",
+    "pedestrianHorizontal": "wait",
+    "pedestrianVertical": "wait"
+  }
+}
